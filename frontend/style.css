@@ -1,0 +1,40 @@
+/* Global background */
+body {
+  background-color: #f5f7fb;
+}
+
+/* Make headings a bit nicer */
+h1 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Improve card hover (nice for demo impression) */
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Make API loading text slightly softer */
+.text-muted {
+  font-size: 0.95rem;
+}
+
+/* Image polish for cat API */
+#cat img {
+  margin-top: 10px;
+  border-radius: 10px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+/* Footer spacing */
+footer {
+  font-size: 0.85rem;
+}
