@@ -34,7 +34,7 @@ sudo docker rm project-backend || true
 
 echo "Starting backend container..."
 sudo docker run -d \
-    --name myproject-backend \
+    --name project-backend \
     -p 127.0.0.1:5000:5000 \
     project-backend
 
