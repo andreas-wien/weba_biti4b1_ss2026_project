@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
 
 async function loadWeather() {
   try {
-    const res = await fetch("/project/api/weather");
+    const res = await fetch("/api/weather");
     const data = await res.json();
 
     document.getElementById("weather").innerHTML = `
@@ -21,7 +21,7 @@ async function loadWeather() {
 
 async function loadJoke() {
   try {
-    const res = await fetch("/project/api/joke");
+    const res = await fetch("/api/joke");
     const data = await res.json();
 
     document.getElementById("joke").innerHTML = `
@@ -36,7 +36,7 @@ async function loadJoke() {
 
 async function loadCat() {
   try {
-    const res = await fetch("/project/api/cat");
+    const res = await fetch("/api/cat");
     const data = await res.json();
 
     document.getElementById("cat").innerHTML = `
