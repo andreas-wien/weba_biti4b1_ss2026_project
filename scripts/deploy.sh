@@ -66,4 +66,4 @@ sudo systemctl reload nginx
 # Done
 # -----------------------------
 echo "Deployment complete!"
-echo "Open: http://static.148.211.62.46.clients.your-server.de_project/project/"
+echo "Open: http://static.148.211.62.46.clients.your-server.de/"
