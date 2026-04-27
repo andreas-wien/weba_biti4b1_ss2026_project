@@ -8,6 +8,8 @@ PROJECT_DIR="/var/www/static.148.211.62.46.clients.your-server.de"
 NGINX_CONF="/etc/nginx/sites-available/static.148.211.62.46.clients.your-server.de"
 NGINX_ENABLED="/etc/nginx/sites-enabled/static.148.211.62.46.clients.your-server.de"
 
+rm -rf $PROJECT_DIR
+
 # -----------------------------
 # 1. Create folders
 # -----------------------------
