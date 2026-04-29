@@ -40,7 +40,7 @@ async function loadCat() {
     const data = await res.json();
 
     document.getElementById("cat").innerHTML = `
-            <img src="${data.url}" alt="Random Cat" width="250" style="border-radius:10px;">
+            <img src="${data.url}" alt="Random Cat" width="250">
         `;
   } catch (err) {
     document.getElementById("cat").innerText = "Failed to load cat";
