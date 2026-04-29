@@ -1,16 +1,29 @@
 /* Global background */
 body {
-  background-color: #f5f7fb;
+  background: #f5f7fb;
 }
 
-/* Make headings a bit nicer */
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Headings */
 h1 {
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
-/* Improve card hover (nice for demo impression) */
+/* Cards */
 .card {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -21,20 +34,25 @@ h1 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
-/* Make API loading text slightly softer */
+/* Text */
 .text-muted {
   font-size: 0.95rem;
 }
 
-/* Image polish for cat API */
+/* Cat image */
 #cat img {
   margin-top: 10px;
   border-radius: 10px;
+  max-width: 100%;
   max-height: 250px;
   object-fit: cover;
 }
 
-/* Footer spacing */
+/* Footer */
 footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #6c757d;
+  padding: 20px 0;
   font-size: 0.85rem;
 }
