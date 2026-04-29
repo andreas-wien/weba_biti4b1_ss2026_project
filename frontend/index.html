@@ -7,35 +7,39 @@
     <title>WEBA Project</title>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-    <!-- Your CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
 
     <script src="app.js" defer></script>
   </head>
 
   <body>
-
     <div class="container">
-
       <!-- HERO -->
       <div class="hero">
         <h1>🌍 Daily Dashboard</h1>
-        <p class="mb-0">Weather • Jokes • Cats • Powered by APIs + Nginx + Docker</p>
+        <p class="mb-0">
+          Weather • Jokes • Cats • Powered by APIs + Nginx + Docker
+        </p>
       </div>
 
       <main class="mt-4">
-
         <div class="row g-4">
-
           <!-- WEATHER -->
           <div class="col-md-4">
             <section class="card p-3 h-100">
               <h2 class="h5">🌤 Weather</h2>
-              <div id="weather" class="text-muted mt-2">
-                Loading weather...
-              </div>
+              <div id="weather" class="text-muted mt-2">Loading weather...</div>
             </section>
           </div>
 
@@ -43,9 +47,7 @@
           <div class="col-md-4">
             <section class="card p-3 h-100">
               <h2 class="h5">😂 Joke of the Day</h2>
-              <div id="joke" class="text-muted mt-2">
-                Loading joke...
-              </div>
+              <div id="joke" class="text-muted mt-2">Loading joke...</div>
             </section>
           </div>
 
@@ -53,25 +55,16 @@
           <div class="col-md-4">
             <section class="card p-3 h-100 text-center">
               <h2 class="h5">🐱 Random Cat</h2>
-              <div id="cat" class="text-muted mt-2">
-                Loading cat...
-              </div>
+              <div id="cat" class="text-muted mt-2">Loading cat...</div>
             </section>
           </div>
-
         </div>
-
       </main>
 
       <!-- FOOTER -->
       <footer>
         <p>Webarchitektur Project • Nginx + Node.js + External APIs</p>
       </footer>
-
     </div>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
   </body>
 </html>
