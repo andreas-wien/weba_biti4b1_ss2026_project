@@ -20,6 +20,6 @@ app.get("/cat", async (req, res) => {
   res.json(data[0]);
 });
 
-app.listen(5000, () =>
+app.listen(5000, "127.0.0.1", () =>
   console.log("Backend running on port 5000"),
 );
